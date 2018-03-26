@@ -37,6 +37,11 @@
 			<artifactId>hessian</artifactId>
 			<version>4.0.38</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>hessian-service</finalName>

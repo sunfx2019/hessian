@@ -23,7 +23,7 @@ public class FileTransferServiceClient {
         // 读取需要上传的文件
         
         // 调用远程服务上传文件。
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1; i++) {
             File file = new File("C:\\Users\\FeiXiangSun\\Desktop\\新建文件夹\\eclipse-jee-oxygen-2-win32-x86_64.zip");
             InputStream data = new BufferedInputStream(new FileInputStream(file));
             service.upload("eclipse-jee-oxygen-2-win32-x86_64.zip", data);

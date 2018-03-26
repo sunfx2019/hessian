@@ -6,6 +6,7 @@ public class HelloServiceImpl implements HelloService {
 
     @Override
     public String sayHello(String username) {
+        System.out.println("username:" + username);
         return "Hello," + username;
     }
 
